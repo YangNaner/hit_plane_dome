@@ -10,6 +10,7 @@ class PlaneGame(object):
     def __init__(self):
         print("游戏初始化")
 
+
         # 1. 创建游戏的窗口
         self.screen = pygame.display.set_mode(SCREEN_RECT.size)
         # 创建结束界面
